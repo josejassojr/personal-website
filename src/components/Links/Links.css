@@ -28,3 +28,7 @@
 #resume-icon {
   font-size: 4vw;
 }
+
+.icon-container:hover {
+  background-color: aquamarine;
+}

@@ -3,6 +3,8 @@ import imageMe from "./media/images/square-pic-me.jpg";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Links from "./components/Links/Links";
 import Header from "./components/Header/Header";
+import React from "react";
+
 function App() {
   return (
     /* jshint ignore:start */

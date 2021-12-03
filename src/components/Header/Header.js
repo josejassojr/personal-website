@@ -1,5 +1,6 @@
 import "./Header.css";
 import logoMe from "../../media/images/logo-me.png";
+import React from "react";
 
 function Header() {
   return (

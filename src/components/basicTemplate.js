@@ -1,4 +1,5 @@
 // import "./nameOfComponent.css";
+// import React from "react";
 
 // function nameOfComponent() {
 //   return (
