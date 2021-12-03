@@ -1,0 +1,30 @@
+.Links {
+  font-style: italic;
+  margin-top: 4vw;
+  border: 3px solid black;
+  height: 10vw;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* justify-items: center; */
+}
+
+.icon-container {
+  /* margin: 10px; */
+  border: 3px solid black;
+  border-radius: 1vw;
+  width: 12vw;
+  height: 8vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#email-icon,
+#github-icon,
+#linkedin-icon,
+#resume-icon {
+  font-size: 4vw;
+}

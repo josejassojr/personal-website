@@ -1,0 +1,18 @@
+.Header {
+  text-align: right;
+  border: 3px solid black;
+}
+
+#logo-me {
+  margin-left: 15px;
+  height: 5vw;
+  border: 5px solid black;
+  border-radius: 5vw;
+}
+
+#header-container {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  border: 5px solid black;
+}
