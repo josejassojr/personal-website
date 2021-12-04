@@ -8,7 +8,7 @@ function Header() {
     <div className="Header">
       <div id="header-container">
         <h1>Jose Jasso Jr.</h1>
-        <img src={logoMe} alt="logo of me" id="logo-me"></img>
+        {/* <img src={logoMe} alt="logo of me" id="logo-me"></img> */}
       </div>
     </div>
     /* jshint ignore:end */

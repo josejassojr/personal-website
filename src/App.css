@@ -1,7 +1,17 @@
 .App {
   text-align: center;
-  background-color: #043907;
-  color: white;
+  color: rgb(5, 170, 5);
+  margin: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Cutive Mono", monospace;
+
+  background-color: black;
+  behavior: smooth;
 }
 
 #main-container {
@@ -19,7 +29,7 @@
 .side {
   display: flex;
   flex-direction: column;
-  border: 3px solid black;
+  /* border: 3px solid black; */
 }
 /* .App-logo {
   height: 40vmin;

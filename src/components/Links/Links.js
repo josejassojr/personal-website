@@ -1,6 +1,6 @@
 import "./Links.css";
 import React from "react";
-
+// import { Route } from "react-router-dom";
 function Links() {
   return (
     /* jshint ignore:start */
@@ -9,7 +9,7 @@ function Links() {
         href="https://www.linkedin.com/in/josejassojr/"
         target="_blank"
         rel="noreferrer"
-        class="link"
+        className="link"
       >
         <div id="linkedin-container" className="icon-container">
           Linkedin <i id="linkedin-icon" class="fab fa-linkedin"></i>
@@ -19,7 +19,7 @@ function Links() {
         href="https://github.com/josejassojr"
         target="_blank"
         rel="noreferrer"
-        class="link"
+        className="link"
       >
         <div className="icon-container">
           Github <i id="github-icon" class="fab fa-github"></i>
@@ -29,16 +29,24 @@ function Links() {
         href="mailto:jose.d.jassojr@gmail.com"
         target="_blank"
         rel="noreferrer"
-        class="link"
+        className="link"
       >
         <div id="email-container" className="icon-container">
           Email <i id="email-icon" class="far fa-envelope"></i>
         </div>{" "}
       </a>
-      {/* Need to add link for resume to show pdf... Route it?  */}
-      <div className="icon-container">
-        Resume <i id="resume-icon" class="far fa-file"></i>{" "}
-      </div>
+      <a
+        href="../../media/resume.pdf"
+        target="_blank"
+        rel="noreferrer"
+        className="link"
+        // download
+      >
+        {/* Need to add link for resume to show pdf... Route it?  */}
+        <div className="icon-container">
+          Resume <i id="resume-icon" class="far fa-file"></i>{" "}
+        </div>
+      </a>
     </div>
     /* jshint ignore:end */
   );

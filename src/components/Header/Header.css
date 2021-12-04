@@ -1,12 +1,15 @@
 .Header {
-  text-align: right;
-  border: 3px solid black;
+  border-bottom: 3px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #b3b3b3;
+  /* background-color: #c8d8e4; */
 }
 
 #logo-me {
   margin-left: 15px;
   height: 5vw;
-  border: 5px solid black;
+  border: 2px solid white;
   border-radius: 5vw;
 }
 
@@ -14,5 +17,7 @@
   display: flex;
   flex-direction: row;
   width: fit-content;
-  border: 5px solid black;
+  height: auto;
+  padding: 3px;
+  /* border: 5px solid black; */
 }
