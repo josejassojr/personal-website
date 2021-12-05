@@ -1,7 +1,6 @@
 import "./App.css";
 import imageMe from "./media/images/square-pic-me.jpg";
 import AboutMe from "./components/AboutMe/AboutMe";
-import Links from "./components/Links/Links";
 import Header from "./components/Header/Header";
 import React from "react";
 
@@ -16,7 +15,6 @@ function App() {
         </div>
         <div id="right-side" className="side">
           <AboutMe />
-          <Links />
         </div>
       </div>
     </div>

@@ -1,11 +1,14 @@
 import "./AboutMe.css";
+import ListTechnologies from "../ListTechnologies/ListTechnologies";
 import React from "react";
 
 function AboutMe() {
   return (
     /* jshint ignore:start */
     <div className="AboutMe">
-      <h1>About Me</h1>
+      <div className="container">
+        <h1>About Me!</h1>
+      </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
         tincidunt est vitae purus hendrerit molestie. Pellentesque cursus sit
@@ -16,10 +19,14 @@ function AboutMe() {
         rhoncus a, interdum ac sapien. Aliquam pretium pulvinar erat, et
         dignissim purus feugiat nec.
       </p>
-      <p>
-        "<i>I am the master of my fate, I am the captain of my soul.</i>" -
-        William Ernest Henley
-      </p>
+      <div className="container">
+        <p>
+          "<i>I am the master of my fate, I am the captain of my soul.</i>" -
+          William Ernest Henley
+        </p>
+      </div>
+
+      <ListTechnologies />
     </div>
     /* jshint ignore:end */
   );

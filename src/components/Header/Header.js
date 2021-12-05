@@ -1,15 +1,14 @@
 import "./Header.css";
-import logoMe from "../../media/images/logo-me.png";
 import React from "react";
-
+import Links from "../Links/Links";
 function Header() {
   return (
     /* jshint ignore:start */
     <div className="Header">
-      <div id="header-container">
-        <h1>Jose Jasso Jr.</h1>
-        {/* <img src={logoMe} alt="logo of me" id="logo-me"></img> */}
+      <div id="name-logo">
+        <h1>Jose's Personal Website</h1>
       </div>
+      <Links />
     </div>
     /* jshint ignore:end */
   );
