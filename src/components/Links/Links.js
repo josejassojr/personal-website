@@ -1,6 +1,7 @@
 import "./Links.css";
 import React from "react";
 import logoMe from "../../media/images/me-longbeach.jpg";
+import Resume from "../../media/resume.pdf";
 
 // import { Route } from "react-router-dom";
 function Links() {
@@ -40,7 +41,7 @@ function Links() {
         {/* </div>{" "} */}
       </a>
       <a
-        href="../../media/resume.pdf"
+        href={Resume}
         target="_blank"
         rel="noreferrer"
         className="link"
