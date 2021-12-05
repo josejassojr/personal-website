@@ -14,3 +14,10 @@
   /* font-size: large; */
   /* border: 3px solid black; */
 }
+
+#name {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: lighter;
+  color: #00d9ff;
+}

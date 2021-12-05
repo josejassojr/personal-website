@@ -6,7 +6,7 @@ function Header() {
     /* jshint ignore:start */
     <div className="Header">
       <div id="name-logo">
-        <h1>Jose's Personal Website</h1>
+        <h1 id="name">Jose's Personal Website</h1>
       </div>
       <Links />
     </div>

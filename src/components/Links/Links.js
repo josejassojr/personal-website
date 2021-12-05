@@ -1,7 +1,8 @@
 import "./Links.css";
 import React from "react";
 import logoMe from "../../media/images/me-longbeach.jpg";
-import Resume from "../../media/resume.pdf";
+// import Resume from "../../media/resume.pdf";
+// import { Route, Switch } from "react-router-dom";
 
 // import { Route } from "react-router-dom";
 function Links() {
@@ -41,7 +42,7 @@ function Links() {
         {/* </div>{" "} */}
       </a>
       <a
-        href={Resume}
+        href="/resume.pdf"
         target="_blank"
         rel="noreferrer"
         className="link"
