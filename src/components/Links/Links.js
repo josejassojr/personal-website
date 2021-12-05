@@ -42,7 +42,7 @@ function Links() {
         {/* </div>{" "} */}
       </a>
       <a
-        href="/resume.pdf"
+        href="/resume"
         target="_blank"
         rel="noreferrer"
         className="link"
