@@ -1,39 +1,25 @@
 .Links {
-  margin-top: 4vw;
   /* border: 3px solid black; */
-  height: 10vw;
-  font-size: 2vw;
+  font-size: max(1.5vw, 8px);
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  /* justify-items: center; */
-}
-
-.icon-container {
-  /* margin: 10px; */
-  background-color: #52ab98;
-  border: 3px solid black;
-  border-radius: 1vw;
-  width: 12vw;
-  height: 8vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-}
-
-#email-icon,
-#github-icon,
-#linkedin-icon,
-#resume-icon {
-  font-size: 4vw;
-}
-
-.icon-container:hover {
-  background-color: #074e0b;
+  width: 50vw;
+  justify-content: space-between;
+  /* height: auto; */
 }
 
 .link {
-  font-style: normal;
   text-decoration: none;
+  color: #b76d68;
+  /* border: 3px solid black; */
+}
+
+#logo-me {
+  height: 6vw; /* if want bigger, change height of header */
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.link:hover {
+  color: #e5c8c8;
 }

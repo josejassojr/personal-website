@@ -1,23 +1,16 @@
 .Header {
-  border-bottom: 3px solid black;
-  display: flex;
-  flex-direction: row-reverse;
-  color: #b3b3b3;
-  /* background-color: #c8d8e4; */
-}
-
-#logo-me {
-  margin-left: 15px;
-  height: 5vw;
-  border: 2px solid white;
-  border-radius: 5vw;
-}
-
-#header-container {
+  border-bottom: 3px dotted #403f4c;
+  height: max(12vh, 100px);
   display: flex;
   flex-direction: row;
-  width: fit-content;
-  height: auto;
-  padding: 3px;
-  /* border: 5px solid black; */
+  justify-content: space-between;
 }
+
+#name {
+  font-family: Cambria, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 100;
+  color: white;
+}
+
+/* need media queries smaller screens */
