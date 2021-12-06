@@ -1,39 +1,23 @@
 .Links {
   /* border: 3px solid black; */
-  position: relative;
-  height: 5vw;
-  font-size: 1.5vw;
-  color: white;
+  font-size: max(1.5vw, 8px);
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  margin-bottom: auto;
-  /* justify-items: center; */
-}
-
-#email-icon,
-#github-icon,
-#linkedin-icon,
-#resume-icon {
-  font-size: 1.5vw;
+  width: 50vw;
+  justify-content: space-between;
+  /* height: auto; */
 }
 
 .link {
-  font-style: normal;
   text-decoration: none;
   color: #b76d68;
-  padding-right: 1vw;
-  margin-right: 3vw;
-  width: 10vw;
   /* border: 3px solid black; */
 }
 
 #logo-me {
-  margin-left: -15px; /* will need to update for different viewports */
-  height: 4.5vw;
+  height: 6vw; /* if want bigger, change height of header */
   border: 2px solid white;
-  border-radius: 4vw;
+  border-radius: 50%;
 }
 
 .link:hover {

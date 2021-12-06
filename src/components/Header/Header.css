@@ -1,23 +1,16 @@
 .Header {
   border-bottom: 3px dotted #403f4c;
-  height: 11vh;
+  height: max(12vh, 100px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: #b3b3b3;
-}
-
-#name-logo {
-  margin-left: 20px;
-  color: #e8e8ed;
-  /* margin-bottom: 90px; */
-  /* font-size: large; */
-  /* border: 3px solid black; */
 }
 
 #name {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
-  font-weight: lighter;
-  color: #00d9ff;
+  font-weight: 100;
+  color: white;
 }
+
+/* need media queries smaller screens */

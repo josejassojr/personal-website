@@ -1,6 +1,4 @@
 .App {
-  /* margin-top: 10vw; */
-  text-align: center;
   color: white;
   margin: 20px;
 }
@@ -8,10 +6,10 @@
   box-sizing: border-box;
 }
 body {
-  margin-top: 2vw;
+  margin-top: min(2vw, 100px);
   font-family: "Open Sans", sans-serif;
-  background-color: #171c29; /* try #121420 later, debating between these two rn... */
-  behavior: smooth;
+  background-color: #121420; /* try #171c29 later, debating between these two rn... */
+  /* behavior: smooth; */
 }
 
 #main-container {
@@ -34,7 +32,6 @@ body {
 }
 
 .container {
-  /* margin: 0; */
   text-align: center;
   /* border: 3px solid black; */
 }
