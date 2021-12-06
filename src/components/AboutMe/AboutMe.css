@@ -1,4 +1,18 @@
 .AboutMe {
   text-align: left;
   margin: auto;
+  /* border: 3px solid black; */
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+@media (max-width: 850px) {
+  p {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
 }

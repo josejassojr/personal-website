@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/">
+          <div id="home-container"></div>
           <Header />
           <div id="main-container">
             <div id="left-side" className="side">

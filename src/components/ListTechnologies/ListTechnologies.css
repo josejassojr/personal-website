@@ -5,5 +5,16 @@ li {
   -webkit-columns: 2;
   -moz-columns: 2;
   font-style: italic;
-  font-size: large;
+  font-size: 1.5vw;
+  border: 2px solid black;
+}
+
+@media (max-width: 850px) {
+  h3 {
+    font-size: 16px;
+  }
+  ul,
+  li {
+    font-size: 10px;
+  }
 }

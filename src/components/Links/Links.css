@@ -1,11 +1,10 @@
 .Links {
   /* border: 3px solid black; */
-  font-size: max(1.5vw, 8px);
+  font-size: 1.5vw;
   display: flex;
   align-items: center;
   width: 50vw;
   justify-content: space-between;
-  /* height: auto; */
 }
 
 .link {
@@ -15,11 +14,17 @@
 }
 
 #logo-me {
-  height: 6vw; /* if want bigger, change height of header */
+  height: 10vh; /* if want bigger, change height of header */
   border: 2px solid white;
   border-radius: 50%;
 }
 
 .link:hover {
   color: #e5c8c8;
+}
+
+@media (max-width: 850px) {
+  #logo-me {
+    height: 4vw;
+  }
 }

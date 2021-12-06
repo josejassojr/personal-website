@@ -20,7 +20,7 @@ function ListTechnologies() {
           <span>
             <i class="fas fa-angle-right"></i>
           </span>{" "}
-          Node/Express
+          Node
         </li>
         <li>
           <span>

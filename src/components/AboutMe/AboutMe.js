@@ -9,7 +9,7 @@ function AboutMe() {
       <div className="container">
         <h1>About Me!</h1>
       </div>
-      <p>
+      <p id="about-me">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac leo
         tellus. In fermentum volutpat elit, eget fermentum metus lacinia vel.
         Sed suscipit tempus nisi, eget eleifend erat elementum quis. Quisque
@@ -22,8 +22,8 @@ function AboutMe() {
         ut orci. Nullam eu eros bibendum, tincidunt diam euismod, aliquet sem.
         Nunc purus justo, congue eu lacus nec, lacinia bibendum est.
       </p>
-      <div className="container">
-        <p>
+      <div id="quote-container" className="container">
+        <p id="quote">
           "<i>I am the master of my fate, I am the captain of my soul.</i>" -
           William Ernest Henley
         </p>

@@ -5,9 +5,9 @@ function Header() {
   return (
     /* jshint ignore:start */
     <div className="Header">
-      {/* <div id="name-logo"> */}
-      <h1 id="name">Jose's Personal Website</h1>
-      {/* </div> */}
+      <div id="name-container">
+        <h1 id="name">Jose's Personal Website</h1>
+      </div>
       <Links />
     </div>
     /* jshint ignore:end */

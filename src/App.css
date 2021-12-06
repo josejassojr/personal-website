@@ -1,12 +1,12 @@
 .App {
   color: white;
-  margin: 20px;
+  /* margin: 2vw; */
 }
 * {
   box-sizing: border-box;
 }
 body {
-  margin-top: min(2vw, 100px);
+  margin-top: -1vw;
   font-family: "Open Sans", sans-serif;
   background-color: #121420; /* try #171c29 later, debating between these two rn... */
   /* behavior: smooth; */
@@ -18,9 +18,10 @@ body {
 }
 
 #picture-me {
-  margin: 5vw;
-  width: 30vw;
-  height: 30vw;
+  margin-right: 3vw;
+  margin-top: 3vw;
+  width: 35vw;
+  height: 35vw;
   /* border: 3px solid black; */
   border-radius: 3vw;
 }
@@ -35,3 +36,10 @@ body {
   text-align: center;
   /* border: 3px solid black; */
 }
+
+@media (max-width: 800px) {
+  #picture-me {
+    width: 40vw;
+    height: 40vw;
+  }
+} ;
