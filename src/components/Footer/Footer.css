@@ -23,6 +23,20 @@
   color: rgba(194, 194, 194, 0.24);
 }
 
+/* Larger Views (Like Monitors and such) */
+@media (min-width: 1600px) {
+  .Footer {
+    font-size: 13px;
+    width: 500px;
+  }
+}
+@media (min-width: 2560px) {
+  .Footer {
+    font-size: 24px;
+    width: 600px;
+  }
+}
+
 /* Mobile View */
 @media (max-width: 600px) {
   .Footer {

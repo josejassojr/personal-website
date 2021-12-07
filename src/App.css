@@ -36,6 +36,20 @@ body {
   text-align: center;
 }
 
+/* Larger Views (Like Monitors and such) */
+
+@media (min-width: 1600px) {
+  #picture-me {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (min-width: 2560px) {
+  #picture-me {
+    width: 750px;
+    height: 750px;
+  }
+}
 @media (max-width: 1000px) {
   #picture-me {
     width: 300px;

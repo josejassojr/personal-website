@@ -9,6 +9,21 @@ li {
   margin: 0;
 }
 
+/* Larger Views (Like Monitors and such) */
+@media (min-width: 1600px) {
+  li {
+    font-size: 20px;
+  }
+  #title-list {
+    font-size: 32px;
+  }
+}
+@media (min-width: 2560px) {
+  li {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 850px) {
   li {
     font-size: 13px;

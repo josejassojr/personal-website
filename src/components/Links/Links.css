@@ -28,7 +28,24 @@
 .link:hover {
   color: #e5c8c8;
 }
+/* Larger Views (Like Monitors and such) */
+@media (min-width: 1600px) {
+  .link {
+    font-size: 24px;
+  }
+  #logo-me {
+    height: 75px;
+  }
+}
 
+@media (min-width: 2560px) {
+  .link {
+    font-size: 32px;
+  }
+  #logo-me {
+    height: 100px;
+  }
+}
 @media (max-width: 1000px) {
   .link {
     font-size: 16px;

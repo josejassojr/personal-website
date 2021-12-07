@@ -22,6 +22,24 @@
   bottom: 0;
 }
 
+/* Larger Views (Like Monitors and such) */
+
+@media (min-width: 1600px) {
+  #name {
+    font-size: 36px; /* need to fix something, out of page */
+  }
+  .Header {
+    height: 120px;
+  }
+}
+@media (min-width: 2560px) {
+  #name {
+    font-size: 48px;
+  }
+  .Header {
+    height: 150px;
+  }
+}
 @media (max-width: 1000px) {
   #name {
     font-size: 28px;

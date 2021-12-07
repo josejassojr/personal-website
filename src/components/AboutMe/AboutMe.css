@@ -2,6 +2,25 @@
   text-align: left;
   margin: auto;
 }
+
+/* Larger Views (Like Monitors and such) */
+@media (min-width: 1600px) {
+  p {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 2560px) {
+  p {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+}
 @media (max-width: 1000px) {
   p {
     font-size: 14px;
