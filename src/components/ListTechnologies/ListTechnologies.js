@@ -9,8 +9,8 @@ function ListTechnologies() {
         <h3>Some technologies I have been working with recently:</h3>
       </div>
 
-      <ul>
-        <li>
+      <ul id="list-technologies">
+        <li id="python">
           <span>
             <i class="fas fa-angle-right"></i>
           </span>{" "}
@@ -44,7 +44,7 @@ function ListTechnologies() {
           <span>
             <i class="fas fa-angle-right"></i>
           </span>{" "}
-          HTML & CSS
+          HTML/CSS
         </li>
       </ul>
     </div>

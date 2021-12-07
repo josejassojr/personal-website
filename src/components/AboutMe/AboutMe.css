@@ -1,7 +1,6 @@
 .AboutMe {
   text-align: left;
   margin: auto;
-  /* border: 3px solid black; */
 }
 
 p {
@@ -12,7 +11,18 @@ p {
   p {
     font-size: 10px;
   }
-  h1 {
+  h2 {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  h2 {
+    text-decoration: underline;
+    font-size: 14vw;
+  }
+  p {
+    font-size: 18px;
+    padding: 4vw;
   }
 }

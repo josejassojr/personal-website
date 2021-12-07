@@ -6,6 +6,9 @@
   width: 50vw;
   justify-content: space-between;
 }
+#contact {
+  display: none;
+}
 
 .link {
   text-decoration: none;
@@ -26,5 +29,35 @@
 @media (max-width: 850px) {
   #logo-me {
     height: 4vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .Links {
+    width: 100vw;
+    flex-direction: column-reverse;
+    font-size: 10vw;
+    /* display: flex; */
+    /* align-items: center; */
+    /* width: 50vw; */
+    /* justify-content: space-between; */
+  }
+  .link,
+  #contact {
+    margin-top: 15vw;
+    /* border: 3px solid black; */
+    /* text-decoration: underline; */
+  }
+  #contact {
+    margin-bottom: 0;
+    font-size: 14vw;
+    display: block;
+    text-decoration: underline;
+    /* border: 2px solid wheat; */
+  }
+  #logo-me {
+    height: 35vw; /* if want bigger, change height of header */
+    border: 2px solid white;
+    border-radius: 50%;
   }
 }
