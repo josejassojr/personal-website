@@ -7,7 +7,7 @@ function AboutMe() {
     /* jshint ignore:start */
     <div className="AboutMe">
       <div className="container">
-        <h2>About Me!</h2>
+        <h1>About Me!</h1>
       </div>
       <p id="about-me">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac leo
@@ -28,7 +28,6 @@ function AboutMe() {
           William Ernest Henley
         </p>
       </div>
-
       <ListTechnologies />
     </div>
     /* jshint ignore:end */

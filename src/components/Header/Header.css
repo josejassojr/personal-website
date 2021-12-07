@@ -1,12 +1,16 @@
 .Header {
   border-bottom: 2px dashed #403f4c;
-  height: 14vh;
-  /* padding: 0; */
+  height: 100px;
   margin: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
+}
+#name-container {
+  position: relative;
+  width: 50%;
 }
 
 #name {
@@ -14,21 +18,19 @@
   font-style: italic;
   font-weight: 100;
   color: white;
-  font-size: 36px;
-  /* position: absolute; */
-  /* width: 20vw; */
+  position: absolute;
   bottom: 0;
 }
 
+@media (max-width: 1000px) {
+  #name {
+    font-size: 28px;
+  }
+}
 @media (max-width: 850px) {
   #name {
     font-size: 24px;
   }
-}
-
-#name-container {
-  position: relative;
-  width: 50%;
 }
 
 @media (max-width: 600px) {
@@ -50,7 +52,6 @@
     font-style: italic;
     font-weight: 100;
     color: white;
-    font-size: 20vw;
     text-align: center;
   }
 }

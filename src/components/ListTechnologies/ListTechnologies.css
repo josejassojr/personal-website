@@ -5,21 +5,26 @@ li {
   -webkit-columns: 2;
   -moz-columns: 2;
   font-style: italic;
-  font-size: 1.5vw;
   margin: 0;
 }
 
 @media (max-width: 850px) {
-  h3 {
+  li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 700px) {
+  li {
+    font-size: 9px;
+  }
+  h2 {
     font-size: 16px;
   }
 }
+
 @media (max-width: 600px) {
-  h3 {
-    font-size: 24px;
-  }
   li {
-    font-size: 3.5vw;
     margin-top: 2vw;
   }
   #list-technologies {

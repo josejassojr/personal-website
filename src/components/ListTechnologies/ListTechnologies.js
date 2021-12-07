@@ -6,9 +6,8 @@ function ListTechnologies() {
     /* jshint ignore:start */
     <div className="ListTechnologies">
       <div className="container">
-        <h3>Some technologies I have been working with recently:</h3>
+        <h2>Some technologies I have been working with recently:</h2>
       </div>
-
       <ul id="list-technologies">
         <li id="python">
           <span>

@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/">
-          <div id="home-container"></div>
+          {/* <div id="home-container"></div> */}
           <Header />
           <div id="main-container">
             <div id="left-side" className="side">
@@ -23,7 +23,7 @@ function App() {
               <AboutMe />
             </div>
           </div>{" "}
-          {/* <Footer /> */}
+          <Footer />
         </Route>
         <Route path="/resume">
           <Resume />

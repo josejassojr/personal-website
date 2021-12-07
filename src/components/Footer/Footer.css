@@ -1,3 +1,23 @@
 .Footer {
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 11px;
+  width: 300px;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: min(4vw, 100px);
+}
+
+#footer-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+.footer-button,
+.Footer {
+  color: rgba(194, 194, 194, 0.24);
 }

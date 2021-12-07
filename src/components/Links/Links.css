@@ -1,10 +1,12 @@
 .Links {
-  /* border: 3px solid black; */
-  font-size: 1.5vw;
+  height: fit-content;
   display: flex;
   align-items: center;
   width: 50vw;
   justify-content: space-between;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 #contact {
   display: none;
@@ -13,11 +15,11 @@
 .link {
   text-decoration: none;
   color: #b76d68;
-  /* border: 3px solid black; */
+  font-size: 20px;
 }
 
 #logo-me {
-  height: 10vh; /* if want bigger, change height of header */
+  height: 70px; /* if want bigger, change height of header */
   border: 2px solid white;
   border-radius: 50%;
 }
@@ -26,9 +28,21 @@
   color: #e5c8c8;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
+  .link {
+    font-size: 16px;
+  }
   #logo-me {
-    height: 4vw;
+    height: 50px;
+  }
+}
+
+@media (max-width: 850px) {
+  .link {
+    font-size: 13px;
+  }
+  #logo-me {
+    height: 40px;
   }
 }
 
@@ -36,24 +50,16 @@
   .Links {
     width: 100vw;
     flex-direction: column-reverse;
-    font-size: 10vw;
-    /* display: flex; */
-    /* align-items: center; */
-    /* width: 50vw; */
-    /* justify-content: space-between; */
+    font-size: 24px;
   }
   .link,
   #contact {
     margin-top: 15vw;
-    /* border: 3px solid black; */
-    /* text-decoration: underline; */
   }
   #contact {
     margin-bottom: 0;
-    font-size: 14vw;
     display: block;
     text-decoration: underline;
-    /* border: 2px solid wheat; */
   }
   #logo-me {
     height: 35vw; /* if want bigger, change height of header */
