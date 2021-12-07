@@ -46,23 +46,28 @@
   }
 }
 
+/* 'Mobile' View */
 @media (max-width: 600px) {
   .Links {
     width: 100vw;
     flex-direction: column-reverse;
-    font-size: 24px;
+    /* border: 1px solid salmon; */
+    margin-bottom: -100px;
   }
   .link,
   #contact {
-    margin-top: 15vw;
+    font-size: 46px;
+    margin-top: 30px;
   }
   #contact {
     margin-bottom: 0;
     display: block;
     text-decoration: underline;
+    font-size: 42px;
   }
   #logo-me {
-    height: 35vw; /* if want bigger, change height of header */
+    /* margin-top: 20px; */
+    height: 140px; /* if want bigger, change height of header */
     border: 2px solid white;
     border-radius: 50%;
   }

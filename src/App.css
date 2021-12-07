@@ -51,10 +51,10 @@ body {
   }
 }
 
+/* 'Mobile' View */
 @media (max-width: 600px) {
   .App {
     margin: -2vw;
-    width: 100vw;
   }
   #main-container {
     flex-direction: column-reverse;
@@ -64,7 +64,6 @@ body {
     margin-top: 5vw;
     width: 90vw;
     height: 90vw;
-    /* border: 3px solid black; */
     border-radius: 10vw;
   }
 }

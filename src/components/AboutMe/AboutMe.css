@@ -18,12 +18,15 @@
   }
 }
 
+/* 'Mobile' View */
 @media (max-width: 600px) {
-  h2 {
+  #about-me-title {
     text-decoration: underline;
-    font-size: 14vw;
+    font-size: 52px;
+    margin-top: 150px;
   }
-  p {
+  #about-me,
+  #quote {
     font-size: 18px;
     padding: 4vw;
   }
