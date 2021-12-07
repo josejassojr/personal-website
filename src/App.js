@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import React from "react";
 import Resume from "./components/Resume/Resume";
 import { Route, Switch } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
             <div id="right-side" className="side">
               <AboutMe />
             </div>
-          </div>
+          </div>{" "}
+          {/* <Footer /> */}
         </Route>
         <Route path="/resume">
           <Resume />

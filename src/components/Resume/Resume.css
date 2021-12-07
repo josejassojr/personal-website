@@ -11,3 +11,9 @@ div-iframe {
   top: 0;
   width: 100%;
 }
+
+@media (max-width: 600px) {
+  div-iframe {
+    width: 80vw;
+  }
+}
