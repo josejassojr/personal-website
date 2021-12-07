@@ -1,6 +1,10 @@
+// CSS and Modules
 import "./Header.css";
 import React from "react";
+
+// Components
 import Links from "../Links/Links";
+
 function Header() {
   return (
     /* jshint ignore:start */

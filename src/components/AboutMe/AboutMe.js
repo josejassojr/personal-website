@@ -1,6 +1,9 @@
+// CSS and Modules
 import "./AboutMe.css";
-import ListTechnologies from "../ListTechnologies/ListTechnologies";
 import React from "react";
+
+// Components
+import ListTechnologies from "../ListTechnologies/ListTechnologies";
 
 function AboutMe() {
   return (

@@ -1,11 +1,14 @@
+// CSS, Modules, and Media
 import "./App.css";
-import imageMe from "./media/images/square-pic-me.jpg";
-import AboutMe from "./components/AboutMe/AboutMe";
-import Header from "./components/Header/Header";
 import React from "react";
 import Resume from "./components/Resume/Resume";
+import imageMe from "./media/images/square-pic-me.jpg";
 import { Route, Switch } from "react-router-dom";
+
+// Components
 import Footer from "./components/Footer/Footer";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Header from "./components/Header/Header";
 
 function App() {
   return (

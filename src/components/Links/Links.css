@@ -8,18 +8,19 @@
   right: 0;
   bottom: 0;
 }
+/* Hides it until mobile view. */
 #contact {
   display: none;
 }
 
 .link {
   text-decoration: none;
-  color: #b76d68;
+  color: #b76d6879; /* #b76d68 */
   font-size: 20px;
 }
 
 #logo-me {
-  height: 70px; /* if want bigger, change height of header */
+  height: 70px;
   border: 2px solid white;
   border-radius: 50%;
 }
@@ -51,7 +52,6 @@
   .Links {
     width: 100vw;
     flex-direction: column-reverse;
-    /* border: 1px solid salmon; */
     margin-bottom: -100px;
   }
   .link,

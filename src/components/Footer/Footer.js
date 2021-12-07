@@ -1,3 +1,4 @@
+// CSS and Modules
 import "./Footer.css";
 import React from "react";
 
