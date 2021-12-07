@@ -1,8 +1,6 @@
 .Header {
   border-bottom: 2px dashed #403f4c;
   height: 100px;
-  /* margin: 0; */
-  /* width: 100%; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,14 +36,13 @@
 /* 'Mobile' View */
 @media (max-width: 600px) {
   .Header {
+    justify-content: flex-start;
     flex-direction: column;
-    /* width: inherit; */
     height: 700px;
     border: none; /* Remove dashed border on bottom of header */
   }
   #name-container {
     width: 100%;
-    height: 70px;
     text-align: center;
   }
   #name {

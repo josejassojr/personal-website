@@ -52,23 +52,33 @@
   .Links {
     width: 100vw;
     flex-direction: column-reverse;
-    margin-bottom: -100px;
+    margin-bottom: 32px;
+    margin-top: 0;
   }
-  .link,
-  #contact {
-    font-size: 46px;
+  .link {
+    font-size: 36px;
     margin-top: 30px;
   }
   #contact {
+    margin-top: 30px;
     margin-bottom: 0;
     display: block;
     text-decoration: underline;
     font-size: 42px;
   }
   #logo-me {
-    /* margin-top: 20px; */
     height: 140px; /* if want bigger, change height of header */
     border: 2px solid white;
     border-radius: 50%;
+  }
+}
+@media (max-width: 460px) {
+  .Links {
+    margin-bottom: -24px;
+  }
+}
+@media (max-width: 320px) {
+  .Links {
+    margin-bottom: -64px;
   }
 }

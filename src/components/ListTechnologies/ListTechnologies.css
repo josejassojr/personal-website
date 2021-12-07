@@ -24,6 +24,7 @@ li {
 /* 'Mobile' View */
 @media (max-width: 600px) {
   #title-list {
+    padding: 4px;
     font-size: 24px;
   }
   li {
