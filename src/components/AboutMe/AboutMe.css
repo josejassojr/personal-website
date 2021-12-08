@@ -3,6 +3,10 @@
   margin: auto;
 }
 
+#fcc-link {
+  color: white;
+}
+
 /* Larger Views (Like Monitors and such) */
 @media (min-width: 1400px) {
   p {

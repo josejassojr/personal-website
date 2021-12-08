@@ -15,6 +15,17 @@ function AboutMe() {
       <p id="about-me">
         Hi! My name is Jose Jasso Jr. and I recently graduated from UC Berkeley
         with a B.S. in Electrical Engineering and Computer Science (EECS).
+        Recently I've been completing courses on{" "}
+        <a
+          href="https://www.freecodecamp.org/"
+          target="_blank"
+          id="fcc-link"
+          rel="noreferrer"
+        >
+          freecodecamp.org
+        </a>{" "}
+        to continue honing my programming skills and learn concepts I did not
+        get the chance to learn while in school.
         <br />
         <br /> I've been playing soccer almost all my life and still love doing
         so. I also enjoy watching movies and spending hours on YouTube whether
@@ -29,12 +40,6 @@ function AboutMe() {
         Some technologies I have been working with recently:
       </p>
       <ListTechnologies />{" "}
-      {/* <div id="quote-container" className="container">
-        <p id="quote">
-          "<i>I am the master of my fate, I am the captain of my soul.</i>" -
-          William Ernest Henley
-        </p>
-      </div> */}
     </div>
     /* jshint ignore:end */
   );
