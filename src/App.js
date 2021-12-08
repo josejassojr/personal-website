@@ -2,7 +2,7 @@
 import "./App.css";
 import React from "react";
 import Resume from "./components/Resume/Resume";
-import imageMe from "./media/images/square-pic-me.jpg";
+import imageMe from "./media/images/larger-pic-lb.jpg";
 import { Route, Switch } from "react-router-dom";
 
 // Components

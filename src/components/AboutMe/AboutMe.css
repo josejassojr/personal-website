@@ -1,6 +1,5 @@
 .AboutMe {
   text-align: left;
-  margin: auto;
 }
 
 #fcc-link {
@@ -58,11 +57,5 @@
 @media (max-width: 460px) {
   .AboutMe {
     margin-top: 30px;
-  }
-}
-
-@media (max-width: 320px) {
-  .AboutMe {
-    margin-top: 48px;
   }
 }
