@@ -1,16 +1,70 @@
 .Header {
-  border-bottom: 3px dotted #403f4c;
-  height: max(12vh, 100px);
+  border-bottom: 2px dashed #403f4c;
+  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
+}
+/* Container for 'Jose's Personal Website' */
+#name-container {
+  position: relative;
+  width: 50%;
 }
 
+/* Jose's Personal Website */
 #name {
   font-family: Cambria, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   font-weight: 100;
   color: white;
+  position: absolute;
+  bottom: 0;
 }
 
-/* need media queries smaller screens */
+/* Larger Views (Like Monitors and such) */
+
+@media (min-width: 1400px) {
+  #name {
+    font-size: 36px; /* need to fix something, out of page */
+  }
+  .Header {
+    height: 120px;
+  }
+}
+@media (min-width: 2560px) {
+  #name {
+    font-size: 48px;
+  }
+  .Header {
+    height: 150px;
+  }
+}
+@media (max-width: 1000px) {
+  #name {
+    font-size: 28px;
+  }
+}
+@media (max-width: 850px) {
+  #name {
+    font-size: 24px;
+  }
+}
+
+/* 'Mobile' View */
+@media (max-width: 600px) {
+  .Header {
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 700px;
+    border: none; /* Remove dashed border on bottom of header */
+  }
+  #name-container {
+    width: 100%;
+    text-align: center;
+  }
+  #name {
+    position: relative;
+    font-size: 48px;
+  }
+}

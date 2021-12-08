@@ -1,3 +1,4 @@
+// CSS, Modules, and Media
 import "./Links.css";
 import React from "react";
 import logoMe from "../../media/images/me-longbeach.jpg";
@@ -39,7 +40,8 @@ function Links() {
       >
         Resume <i id="resume-icon" class="far fa-file"></i>
       </a>
-      <img src={logoMe} alt="logo of me" id="logo-me"></img>
+      <h2 id="contact">Contact</h2>
+      <img src={logoMe} alt="circular shot of my face" id="logo-me"></img>
     </div>
     /* jshint ignore:end */
   );

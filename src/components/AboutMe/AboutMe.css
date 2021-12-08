@@ -1,4 +1,61 @@
 .AboutMe {
   text-align: left;
-  margin: auto;
+}
+
+#fcc-link {
+  color: white;
+}
+
+/* Larger Views (Like Monitors and such) */
+@media (min-width: 1400px) {
+  p {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 2560px) {
+  p {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1000px) {
+  p {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+/* 'Mobile' View */
+@media (max-width: 600px) {
+  .AboutMe {
+    margin-top: -24px;
+  }
+  #about-me-title {
+    text-decoration: underline;
+    font-size: 42px;
+  }
+  #about-me {
+    font-size: 18px;
+    padding: 4vw;
+  }
+}
+
+@media (max-width: 460px) {
+  .AboutMe {
+    margin-top: 30px;
+  }
 }

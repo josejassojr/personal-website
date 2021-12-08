@@ -1,3 +1,4 @@
+// CSS and Modules
 import "./ListTechnologies.css";
 import React from "react";
 
@@ -6,11 +7,12 @@ function ListTechnologies() {
     /* jshint ignore:start */
     <div className="ListTechnologies">
       <div className="container">
-        <h3>Some technologies I have been working with recently:</h3>
+        {/* <h2 id="title-list">
+          Some technologies I have been working with recently:
+        </h2> */}
       </div>
-
-      <ul>
-        <li>
+      <ul id="list-technologies">
+        <li id="python">
           <span>
             <i class="fas fa-angle-right"></i>
           </span>{" "}
@@ -20,7 +22,7 @@ function ListTechnologies() {
           <span>
             <i class="fas fa-angle-right"></i>
           </span>{" "}
-          Node/Express
+          Node
         </li>
         <li>
           <span>
@@ -44,7 +46,7 @@ function ListTechnologies() {
           <span>
             <i class="fas fa-angle-right"></i>
           </span>{" "}
-          HTML & CSS
+          HTML/CSS
         </li>
       </ul>
     </div>

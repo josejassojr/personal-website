@@ -1,25 +1,101 @@
 .Links {
-  /* border: 3px solid black; */
-  font-size: max(1.5vw, 8px);
+  height: fit-content;
   display: flex;
   align-items: center;
   width: 50vw;
   justify-content: space-between;
-  /* height: auto; */
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+/* Hides it until mobile view. */
+#contact {
+  display: none;
 }
 
 .link {
   text-decoration: none;
-  color: #b76d68;
-  /* border: 3px solid black; */
+  color: #b76d6879; /* #b76d68 */
+  font-size: 20px;
 }
 
 #logo-me {
-  height: 6vw; /* if want bigger, change height of header */
+  height: 70px;
   border: 2px solid white;
   border-radius: 50%;
 }
 
 .link:hover {
   color: #e5c8c8;
+}
+/* Larger Views (Like Monitors and such) */
+@media (min-width: 1400px) {
+  .link {
+    font-size: 24px;
+  }
+  #logo-me {
+    height: 75px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .link {
+    font-size: 32px;
+  }
+  #logo-me {
+    height: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  .link {
+    font-size: 16px;
+  }
+  #logo-me {
+    height: 50px;
+  }
+}
+
+@media (max-width: 850px) {
+  .link {
+    font-size: 13px;
+  }
+  #logo-me {
+    height: 40px;
+  }
+}
+
+/* 'Mobile' View */
+@media (max-width: 600px) {
+  .Links {
+    width: 100vw;
+    flex-direction: column-reverse;
+    margin-bottom: 32px;
+    margin-top: 0;
+  }
+  .link {
+    font-size: 36px;
+    margin-top: 30px;
+  }
+  #contact {
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: block;
+    text-decoration: underline;
+    font-size: 42px;
+  }
+  #logo-me {
+    height: 140px; /* if want bigger, change height of header */
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 460px) {
+  .Links {
+    margin-bottom: -24px;
+  }
+}
+@media (max-width: 320px) {
+  .Links {
+    /* margin-bottom: -64px; */
+  }
 }

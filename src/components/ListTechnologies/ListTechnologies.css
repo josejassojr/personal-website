@@ -1,3 +1,4 @@
+/* List Properties */
 ul,
 li {
   list-style-type: none;
@@ -5,5 +6,64 @@ li {
   -webkit-columns: 2;
   -moz-columns: 2;
   font-style: italic;
-  font-size: large;
+  margin: 0;
+}
+
+/* Larger Views (Like Monitors and such) */
+@media (min-width: 1400px) {
+  li {
+    font-size: 20px;
+  }
+  #title-list {
+    font-size: 32px;
+  }
+}
+@media (min-width: 2560px) {
+  li {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 850px) {
+  li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 700px) {
+  li {
+    font-size: 9px;
+  }
+}
+
+/* 'Mobile' View */
+@media (max-width: 600px) {
+  #title-list {
+    padding: 4px;
+    font-size: 24px;
+  }
+  li {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  #python {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 350px) {
+  li {
+    font-size: 11px;
+  }
+}
+@media (max-width: 300px) {
+  li {
+    font-size: 9px;
+  }
 }
