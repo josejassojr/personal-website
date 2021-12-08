@@ -36,6 +36,10 @@ body {
   text-align: center;
 }
 
+#quote-container {
+  width: 400px;
+}
+
 /* Larger Views (Like Monitors and such) */
 
 @media (min-width: 1400px) {
@@ -43,11 +47,17 @@ body {
     width: 500px;
     height: 500px;
   }
+  #quote-container {
+    width: 500px;
+  }
 }
 @media (min-width: 2560px) {
   #picture-me {
     width: 750px;
     height: 750px;
+  }
+  #quote-container {
+    width: 750px;
   }
 }
 @media (max-width: 1000px) {
@@ -55,12 +65,18 @@ body {
     width: 300px;
     height: 300px;
   }
+  #quote-container {
+    width: 300px;
+  }
 }
 
 @media (max-width: 850px) {
   #picture-me {
     width: 275px;
     height: 275px;
+  }
+  #quote-container {
+    width: 275px;
   }
 }
 
@@ -78,5 +94,13 @@ body {
     width: 90vw;
     height: 90vw;
     border-radius: 10vw;
+  }
+  #quote-container {
+    width: 90vw;
+    margin-left: 5.5vw;
+  }
+  #quote {
+    font-size: 18px;
+    padding: 4vw;
   }
 }
