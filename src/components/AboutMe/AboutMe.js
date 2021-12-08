@@ -13,26 +13,28 @@ function AboutMe() {
         <h1 id="about-me-title">About Me!</h1>
       </div>
       <p id="about-me">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac leo
-        tellus. In fermentum volutpat elit, eget fermentum metus lacinia vel.
-        Sed suscipit tempus nisi, eget eleifend erat elementum quis. Quisque
-        sodales egestas egestas. In eleifend nunc id erat varius, sed egestas
-        lacus feugiat.
+        Hi! My name is Jose Jasso Jr. and I recently graduated from UC Berkeley
+        with a B.S. in Electrical Engineering and Computer Science (EECS).
         <br />
-        <br /> Donec neque tortor, varius eu consequat a, mollis eu nisi. Donec
-        eros elit, tincidunt ac vulputate non, sagittis at purus. Duis in massa
-        sed dolor semper faucibus in eu ex. <br />
+        <br /> I've been playing soccer almost all my life and still love doing
+        so. I also enjoy watching movies and spending hours on YouTube whether
+        it be on breakdowns of the newest MCU shows/films or deep dives on
+        subjects that catch my attention.
         <br />
-        Quisque aliquet rhoncus nulla quis tincidunt. Sed porta auctor porta.
-        Sed vestibulum urna a ullamcorper pellentesque.
+        <br />
+        My goal is to join a great and exciting team I can contribute to as a
+        Software Engineer and continue growing!
+        <br />
+        <br />
+        Some technologies I have been working with recently:
       </p>
-      <div id="quote-container" className="container">
+      <ListTechnologies />{" "}
+      {/* <div id="quote-container" className="container">
         <p id="quote">
           "<i>I am the master of my fate, I am the captain of my soul.</i>" -
           William Ernest Henley
         </p>
-      </div>
-      <ListTechnologies />
+      </div> */}
     </div>
     /* jshint ignore:end */
   );

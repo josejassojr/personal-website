@@ -10,7 +10,7 @@ li {
 }
 
 /* Larger Views (Like Monitors and such) */
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
   li {
     font-size: 20px;
   }

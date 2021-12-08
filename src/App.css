@@ -38,7 +38,7 @@ body {
 
 /* Larger Views (Like Monitors and such) */
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
   #picture-me {
     width: 500px;
     height: 500px;

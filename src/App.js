@@ -20,7 +20,21 @@ function App() {
           <Header />
           <div id="main-container">
             <div id="left-side" className="side">
-              <img src={imageMe} alt="meaningful text" id="picture-me"></img>
+              <img
+                src={imageMe}
+                alt="me, standing in front of a rail"
+                id="picture-me"
+              ></img>
+              <div id="quote-container" className="container">
+                <p id="quote">
+                  "
+                  <i>
+                    I am the master of my fate, I am the captain of my soul.
+                  </i>
+                  "
+                  <br /> -William Ernest Henley
+                </p>
+              </div>
             </div>
             <div id="right-side" className="side">
               <AboutMe />

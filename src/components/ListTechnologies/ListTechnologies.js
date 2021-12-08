@@ -7,9 +7,9 @@ function ListTechnologies() {
     /* jshint ignore:start */
     <div className="ListTechnologies">
       <div className="container">
-        <h2 id="title-list">
+        {/* <h2 id="title-list">
           Some technologies I have been working with recently:
-        </h2>
+        </h2> */}
       </div>
       <ul id="list-technologies">
         <li id="python">
